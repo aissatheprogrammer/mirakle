@@ -1,21 +1,49 @@
 <!DOCTYPE html>
-<html class="whitespace-nowrap">
+<html>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  <body>
-    <img
-      class="h-6 mt-9 mx-auto"
-      src="images/Mirakle_Logo.svg"
-      alt="TikTok Mirakle Makers"
-    />
-    <h1 class="sr-only text-[#1D1D1F]">Mirakle Agence TikTok</h1>
+  <body
+    class="bg-black"
+    style="
+      background: linear-gradient(
+          245.05deg,
+          rgba(9, 9, 9, 0.204) 40.52%,
+          rgba(0, 115, 240, 0.0904) 63.8%,
+          rgba(0, 0, 0, 0) 84.1%
+        ),
+        linear-gradient(
+          55.12deg,
+          rgba(9, 9, 9, 0.204) 16.99%,
+          rgba(0, 115, 240, 0.0904) 41.3%,
+          rgba(0, 0, 0, 0) 67.56%
+        ),
+        radial-gradient(
+            32.56% 32.56% at 50% 95.47%,
+            rgba(0, 115, 240, 0.3) 0%,
+            rgba(0, 0, 0, 0) 100%
+          )
+          /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
+        radial-gradient(
+            89.23% 140.66% at 95.28% 10.77%,
+            rgba(0, 115, 240, 0.2) 0%,
+            rgba(0, 115, 240, 0) 49.72%,
+            rgba(0, 115, 240, 0.128267) 100%
+          )
+          /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
+        #000000;
+      background-size: cover;
+      background-attachment: fixed;
+    "
+  >
+    <img class="mt-8 ml-32" src="images/mirakle_logo.svg" alt="Mirakle Logo" />
 
     <div class="relative">
-      <h2 class="flex justify-center mt-32 font-bold text-lg md:text-5xl">
-        <span>TikTok&nbsp;</span>
+      <h1 class="sr-only">Mirakle Agence TikTok</h1>
+      <h2 class="flex justify-center mt-16 font-bold text-2xl md:text-4xl">
+        <span class="text-white">TikTok&nbsp;</span>
         <span class="text-[#0073F0]">Mirakl</span>
         <span class="text-[#0073F0]"
           >e&nbsp;
@@ -24,39 +52,33 @@
             src="images/sparkles.svg"
             alt=""
         /></span>
-        <span>Makers</span>
+        <span class="text-[#0073F0]">Makers</span>
       </h2>
     </div>
 
-    <p
-      class="flex justify-center text-xs md:text-2xl text-center w-2/5 mt-6 content-center mx-auto md:mt-12 md:text-left md:w-5/12 md:ml-36 md:leading-8 font-bold text-[#1D1D1F]"
-    >
-      Spécialisée dans la création de mirakles,<br />
-      on gère la production de contenu organique pour vous,<br />
-      en identifiant et captivant votre public cible. <br />
-    </p>
-
-    <h1 class="sr-only text-[#1D1D1F]">Mirakle Agence TikTok</h1>
-
-    <div
-      class="flex justify-center w-80 text-xs text-center mx-auto mt-32 font-bold md:text-2xl"
-    >
-      <h4>
-        <span class="text-[#1D1D1F]"
-          >Comptez sur notre savoir-faire pour&nbsp;</span
-        >
-        <span class="text-[#F40052]"
-          >faire briller votre marque&nbsp;<br class="md:hidden" />
-        </span>
-        <span class="text-[#1D1D1F]"> dans l'univers TikTok. </span>
-      </h4>
+    <div class="flex justify-center mt-28">
+      <h2 class="text-center text-2xl md:text-5xl font-bold w-11/12">
+        <span class="text-white">Comptez sur notre savoir-faire pour </span>
+        <br class="hidden md:flex" />
+        <span class="text-[#F40052]">faire briller votre marque</span>
+        <span class="text-white">dans l'univers TikTok</span>
+      </h2>
     </div>
+    <h4
+      class="flex font-roboto mt-12 font-normal text-[#A8AABC] text-center justify-center text-lg md:text-2xl"
+    >
+      Spécialisée dans la création de mirakles, on gère la production de contenu
+      organique pour<br />
+      vous en identifiant et captivant votre public cible.
+    </h4>
 
     <a href="https://calendly.com/mirakle-agency/30min">
       <button
-        class="text-xs md:text-sm mt-12 w-48 md:w-64 flex flex-row items-center justify-center py-6 px-10 mx-auto mt-176 bg-blue-600 rounded-2xl md:rounded-3xl"
+        class="text-xs md:text-sm mt-24 w-64 md:w-64 h-16 flex flex-row items-center justify-center py-6 px-10 mx-auto mt-176 bg-blue-600 rounded-2xl md:rounded-2xl"
       >
-        <span class="text-slate-200 font-bold">PRENEZ RANDEZ VOUS</span>
+        <span class="text-slate-200 font-montserrat font-bold"
+          >PRENEZ RENDEZ VOUS</span
+        >
       </button>
     </a>
   </body>
